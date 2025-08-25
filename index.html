@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout with Grid & Flexbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>My Responsive Webpage</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main layout using CSS Grid -->
+  <main class="grid-layout">
+    <!-- Content area -->
+    <section class="content">
+      <h2>Welcome to the Content Area</h2>
+      <p>This is the main content section of the page. It uses CSS Grid for the page structure.</p>
+
+      <!-- Flexbox cards inside content -->
+      <div class="cards">
+        <div class="card">
+          <h3>Card One</h3>
+          <p>Flexbox aligns these cards horizontally on larger screens, and stacks them on smaller screens.</p>
+        </div>
+        <div class="card">
+          <h3>Card Two</h3>
+          <p>Each card adjusts spacing and size responsively.</p>
+        </div>
+        <div class="card">
+          <h3>Card Three</h3>
+          <p>Background, padding, and borders show box model usage.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <p>This is the sidebar. On desktop, it appears next to the content. On smaller devices, it stacks below.</p>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Responsive Layout Demo</p>
+  </footer>
+</body>
+</html>
